@@ -9,8 +9,8 @@ public class MouseLook : MonoBehaviour
 
     public static bool cursorLocked = false;
     float rotationX = 0;
-    public float rotationSpeedHor = 5.0f;
-    public float rotationSpeedVer = 5.0f;
+    private float rotationSpeedHor;
+    private float rotationSpeedVer;
 
     public float maxVert = 45.0f;
     public float minVert = -45.0f;
@@ -20,6 +20,8 @@ public class MouseLook : MonoBehaviour
         SetX();
         SetY();
         UpdateCursorLock();
+        rotationSpeedHor = PlayerPrefs.GetFloat("Hor");
+        rotationSpeedVer = PlayerPrefs.GetFloat("Ver");
     }
 
     void SetX()
