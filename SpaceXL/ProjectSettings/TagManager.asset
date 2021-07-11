@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ground
   - Spit
+  - MM_Music
+  - G_Music
+  - Hor
+  - Ver
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,15 @@ public class Health : MonoBehaviour
     {
         spawner = GameObject.Find("spawners");
         animator = GetComponent<Animator>();
+        float volume = PlayerPrefs.GetFloat("Game");
+        AudioSource.volume = volume;
     }
+
+    private void LateUpdate()
+    {
+        AudioSource.volume = PlayerPrefs.GetFloat("Game");
+    }
+
     void ApplyDamage(float damage)
     {
         HealthPoint -= damage;
