@@ -277,5 +277,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shooter: {fileID: 0}
-  AmmoCount: 30
   AmmoBar: {fileID: 0}

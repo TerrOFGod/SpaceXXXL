@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4077632445622589721}
   - component: {fileID: 4085236694102442859}
   - component: {fileID: 4036577900255351417}
+  - component: {fileID: -2916186237967954475}
   m_Layer: 0
   m_Name: Medicine
   m_TagString: Untagged
@@ -91,8 +92,22 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4098357053410924475}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.07799423, y: 0.13488345, z: 0.08000001}
   m_Center: {x: 0, y: 0.067441724, z: 0.000000007450581}
+--- !u!114 &-2916186237967954475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4098357053410924475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2142de83b3b61464686cabf483a87afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: {fileID: 0}
+  HealthBar: {fileID: 0}

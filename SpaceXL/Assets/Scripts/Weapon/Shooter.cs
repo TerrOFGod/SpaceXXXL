@@ -7,7 +7,7 @@ public class Shooter : MonoBehaviour
     #region Variables
     public float fireRate = 5;
     public int maxAmmo = 25;
-    private int currentAmmo = 10;
+    private int currentAmmo;
     public Transform bubblesSpawn;
     public GameObject shootEffect;
     public AudioClip shootClip;
@@ -26,6 +26,7 @@ public class Shooter : MonoBehaviour
     {
         Ammo.SetMaxAmmo(MaxTotalAmmo);
         Ammo.SetAmmo(TotalAmmo);
+        currentAmmo = maxAmmo;
     }
     void Update()
     {

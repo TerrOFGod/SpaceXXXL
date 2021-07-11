@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ammo : MonoBehaviour
 {
     public Shooter shooter;
-    private int AmmoCount = 20;
+    private int AmmoCount = 30;
     public AmmoBar AmmoBar;
     private void OnTriggerEnter(Collider other)
     {

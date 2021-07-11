@@ -73,7 +73,7 @@ CharacterController:
   m_Height: 1.2
   m_Radius: 0.56
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.56, z: 0.09}
@@ -123,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37566ac0aa46fed4daa9065738119562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BallisticsAngle: 15
-  sightRange: 50
+  BallisticsAngle: 10
+  sightRange: 200
   attackRange: 30
   SpitSpawn: {fileID: 6291295495497014754}
   playerInSightRange: 0

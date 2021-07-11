@@ -126,6 +126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9785d2880e9bf44995f9ff2fb432ccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 20
+  Damage: 30
   ParticleHit: {fileID: 3960414665949758881, guid: 3b9668a2e2a45da43979d8be3e38c491,
     type: 3}
